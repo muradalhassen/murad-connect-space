@@ -1,5 +1,6 @@
 import { Github, Linkedin, Mail, FileText } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import headshotImage from "@/assets/Murad_Headshot.JPG?url";
 
 const Hero = () => {
   return (
@@ -13,6 +14,18 @@ const Hero = () => {
       
       <div className="container mx-auto px-6 relative z-10">
         <div className="max-w-4xl mx-auto text-center space-y-8 animate-fade-in">
+          {/* Headshot */}
+          <div className="flex justify-center mb-8">
+            <div className="relative group">
+              <div className="absolute inset-0 bg-gradient-to-br from-primary to-secondary rounded-full blur-xl opacity-50 group-hover:opacity-75 transition-opacity duration-500" />
+              <img 
+                src={headshotImage} 
+                alt="Murad Alhassen" 
+                className="relative w-48 h-48 md:w-56 md:h-56 rounded-full object-cover border-4 border-primary/30 shadow-2xl group-hover:scale-105 transition-transform duration-500"
+              />
+            </div>
+          </div>
+          
           {/* Name with gradient */}
           <h1 className="text-6xl md:text-7xl lg:text-8xl font-bold">
             <span className="text-gradient">Murad Alhassen</span>
