@@ -49,7 +49,7 @@ const leadershipRoles = [
 
 const Leadership = () => {
   return (
-    <section className="py-20 bg-background">
+    <section id="leadership" className="py-20 bg-background">
       <div className="container mx-auto px-6">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-16">
