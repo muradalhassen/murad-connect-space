@@ -20,7 +20,7 @@ const Hero = () => {
           
           {/* Title */}
           <p className="text-2xl md:text-3xl text-muted-foreground font-medium">
-            Software Engineer & Full-Stack Developer
+            Junior studying computer science
           </p>
           
           {/* Bio */}
@@ -38,10 +38,6 @@ const Hero = () => {
             <div className="text-center">
               <div className="text-3xl font-bold text-secondary">2027</div>
               <div className="text-sm text-muted-foreground">Expected Graduation</div>
-            </div>
-            <div className="text-center">
-              <div className="text-3xl font-bold text-primary">70+</div>
-              <div className="text-sm text-muted-foreground">ColorStack Members</div>
             </div>
           </div>
           
@@ -89,7 +85,7 @@ const Hero = () => {
               <Mail className="w-6 h-6 group-hover:text-primary transition-colors" />
             </a>
             <a 
-              href="https://muradalhassen.com" 
+              href="/Murad_Alhassen_Resume.pdf" 
               target="_blank" 
               rel="noopener noreferrer"
               className="p-3 rounded-full bg-card hover:bg-primary/20 transition-all duration-300 hover:scale-110 group"
