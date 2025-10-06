@@ -39,7 +39,7 @@ const Hero = () => {
           {/* Bio */}
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
             Computer Science student at Arizona State University with a passion for building 
-            impactful solutions. Currently interning at JP Morgan Chase & Co.
+            impactful solutions. Prev. SWE at JP Morgan Chase & Co.
           </p>
           
           {/* Stats */}
