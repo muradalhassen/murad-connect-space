@@ -33,7 +33,7 @@ const Hero = () => {
           
           {/* Title */}
           <p className="text-2xl md:text-3xl text-muted-foreground font-medium">
-            Junior studying computer science
+            Undergraduate student studying computer science
           </p>
           
           {/* Bio */}
